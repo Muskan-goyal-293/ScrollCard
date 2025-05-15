@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+ padding: 5vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-color:black
+}
+.common{
+    position: sticky;
+    top: 15%;
+    margin: 7vh;
+    height: 75vh;
+    width: 50vh;
+    background-color: rgba(46, 33, 33, 0.986);
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    border-radius: 10%;
+}
+.common img{
+    height: 45vh;
+    border-radius: 2%;
+object-fit: cover;
+}
+.common h1{
+    font-family:  "gilroy";
+    font-weight: 200;
+    text-align: center;
+    margin: 2vh;
+}
+.common p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
